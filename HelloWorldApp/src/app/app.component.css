@@ -7,3 +7,17 @@ h1 {
     font-style: italic;
     text-align: center;
   }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
