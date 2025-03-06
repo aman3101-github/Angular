@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Hello from BridgeLabz';
+  // Data property for Interpolation
+  title: string = "Hello from BridgeLabz"; 
 }
