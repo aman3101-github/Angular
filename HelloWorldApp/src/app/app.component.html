@@ -1,4 +1,4 @@
 <div class="container">
-    <h1>{{ title }}</h1>
-    <img [src]="logoUrl" alt="BridgeLabz Logo" width="200" (click)="openBridgeLabzSite()" style="cursor: pointer;">
+    <h1>{{ title }}, {{ userName }}</h1>
+    <input type="text" [(ngModel)]="userName" placeholder="Enter your name">
 </div>
